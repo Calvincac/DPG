@@ -27,6 +27,23 @@ bundle install
 
 ```
 
+As this application is using user and password to log in the system. It is required that you create a file with user and password as it is displayed below.
+
+```
+touch user_and_password.txt 
+
+```
+
+You must add your credentials as you can see below:
+
+```
+user:calvincac@hotmail.com
+password:arandompassword
+
+```
+
+Avoid adding spaces in the file.
+
 ## Project Folders
 cucumber_report: you will find the html cucumber report generated. <br />
 report_builder: you will find the file reponsible for generating the cucumber report. <br />
